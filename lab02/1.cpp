@@ -1,8 +1,9 @@
+//make a class named shape and make its object as rectangle and find its area and volume
 #include<iostream>
 using namespace std;
 
 
-class dus{
+class shape{
     int l,b,h;
     public:
         void getdata(int x,int y,int z){
@@ -10,6 +11,12 @@ class dus{
             b=y;
             h=z;
         }
+        void area(){
+            int area;
+            area= l*b;
+            cout<<"\narea is "<<area;
+        }
+
         void volume(){
             int v;
             v= l*b*h;
@@ -18,11 +25,12 @@ class dus{
 
 };
 int main (){
-    dus d1;
+    shape cuboid;
     int a,b,c;
     cout<<"enter length,breadth and height";
     cin>>a>>b>>c;
-    d1.getdata(a,b,c);
-    d1.volume();
+    cuboid.getdata(a,b,c);
+    cuboid.volume();
+    cuboid.area();
     return 0;
 }
