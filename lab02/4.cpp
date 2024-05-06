@@ -1,4 +1,4 @@
-//intert 5 values in an array and display them using oop
+//insert 5 values in an array and display them using oop
 #include<iostream>
 using namespace std;
 class arre{
