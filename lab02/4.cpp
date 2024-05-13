@@ -6,13 +6,13 @@ class arre{
     int i;
     public:
         void getdata(){
-            for (i=0;i<10;i++){
+            for (i=0;i<5;i++){
             cout<<"Enter term "<<i+1<<": ";
             cin>>arr[i];
             }
         }
         void display(){
-            for (i=0;i<10;i++){
+            for (i=0;i<5;i++){
             cout<<arr[i];
             }
         }

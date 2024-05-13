@@ -1,4 +1,4 @@
-//make a class named shape and make its object as rectangle and find its area and volume
+//make a class named shape and make its object as cuboid and find its area and volume
 #include<iostream>
 using namespace std;
 
