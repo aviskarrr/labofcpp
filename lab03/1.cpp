@@ -3,12 +3,7 @@
 using namespace std;
 class Calculator{
     public:
-        // int l,b,h,r;
-        // void getdata(){
-        //     cout<<"enter";
-        //     cin>>l>>b>>h>>r;
 
-        // }
         void volume(int l, int b,int h){
             int vol;
             vol = l*b*h;
@@ -29,7 +24,6 @@ class Calculator{
 };
 int main(){
     Calculator C1;
-    // int m,n,o,p
     cout<<"Volume of Cuboid:\n";
     C1.volume(2);
     cout<<"Volume of Cylinder:\n";
