@@ -1,0 +1,2 @@
+
+    checkForConstructor C3;
