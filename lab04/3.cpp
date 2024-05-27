@@ -1,3 +1,5 @@
+// WAP to perform the addition of distance in the feet and inches format. Use
+// objects as argument.
 #include<iostream>
 class distanceMeasurement
 {

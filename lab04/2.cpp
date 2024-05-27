@@ -1,3 +1,10 @@
+// Write a program that display the total time in 24-hour clock format having
+// fixed time 12:34:56 and 10:35:14. One constructor should initialize member
+// data hour, minute and second to 0 and another should initialize it to fixed
+// values. Other two member functions should add two objects of type time
+// passed as arguments and display the result.
+
+
 #include<iostream>
 class checkForConstructor
 {

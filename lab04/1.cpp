@@ -1,3 +1,6 @@
+//WAP to find the sum and average of the number by using new and delete
+// operator. Also use static_cast casting operator.
+
 #include <iostream>
 using namespace std;
 
