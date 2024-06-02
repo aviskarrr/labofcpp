@@ -1,5 +1,5 @@
-// WAP to overload plus operator to add two complex number using friend
-// function and without using friend function.
+// WAP to overload plus operator to add two complex number
+//  without using friend function.
 
 #include <iostream>
 
@@ -15,7 +15,7 @@ class Complex {
             return Complex(c1.real + real, c1.imag + imag);
         }
 
-        void display() const {
+        void display() {
             std::cout << real << " + " << imag << "i" << std::endl;
         }
 };

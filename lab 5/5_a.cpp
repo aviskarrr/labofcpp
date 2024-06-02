@@ -1,5 +1,5 @@
 // WAP to overload plus operator to add two complex number using friend
-// function and without using friend function.
+// function
 
 #include <iostream>
 
