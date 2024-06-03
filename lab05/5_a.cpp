@@ -13,7 +13,7 @@ class Complex {
 
         friend Complex operator+(Complex c1, Complex c2);
 
-        void display() const {
+        void display(){
             std::cout << real << " + " << imag << "i" << std::endl;
         }
 };
