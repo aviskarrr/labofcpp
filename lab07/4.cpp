@@ -1,6 +1,8 @@
 // Write a program to show the use of virtual base class and pure virtual
 // function.
 
+//pure virtual function
+
 
 #include<iostream>
 using namespace std;
