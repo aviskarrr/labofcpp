@@ -14,7 +14,7 @@ class api{
 
 int main(){
     api A1;
-    A1.default_arg_test(5);
+    A1.default_arg_test(5,'!');
     return 0;
 }
 
