@@ -1,3 +1,4 @@
+// qn 04 part 1
 // Write a program to show the use of virtual base class and pure virtual
 // function.
 
