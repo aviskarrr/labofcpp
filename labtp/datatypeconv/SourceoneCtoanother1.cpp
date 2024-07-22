@@ -9,9 +9,10 @@ class cen{
         void display(){
             std::cout<<c;
         }
-        
         operator fah() const;
+
 };
+
 
 class fah{
     float f;
@@ -28,6 +29,7 @@ cen::operator fah() const{  //hamile source 1'st mai declare gareko chha ra fah 
             f=((c*9.0)/5.0)+32;
             return fah(f);
 }
+
 int main(){
 
     cen c1(100);
