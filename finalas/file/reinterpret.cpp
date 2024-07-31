@@ -41,7 +41,8 @@ int main() {
         return 1;
     }
 
-    while (file.read(reinterpret_cast<char*>(&q), sizeof(q))) {
+    while (!file.eof()) {
+        file.read(reinterpret_cast<char*>(&q), sizeof(q));
         q.dis();
     }
 
