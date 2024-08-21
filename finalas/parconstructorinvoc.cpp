@@ -4,6 +4,7 @@ class A{
     public:
     A(){
         cout<<"helo im A\n";
+        cout<<"helo im A but paramaterized\n";
     }
 
     A(int a){

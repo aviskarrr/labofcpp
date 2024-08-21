@@ -16,6 +16,7 @@ void Math::getThingsDone(int a, int b){
     x=c=y;
     
 }
+//just testing
 
 void Math::displayItems(){
     std::cout<<x<<std::endl<<y<<std::endl;
