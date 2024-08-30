@@ -1,0 +1,10 @@
+1,image processing;6$10%1&workers:7,0,8
+2,natural language processing;7$15%1&workers:8,1,3
+3,computer vision;5$10%0&workers:0,1
+4,friend recommendation;1$19%0&workers:2,8,5
+5,knowledge discovery;9$12%0&workers:0,1,6
+6,data analytics;8$11%1&workers:3,9
+7,seed selection;6$14%1&workers:9,5,6,3
+8,data mining;7$15%0&workers:1,2,4
+9,pattern recognition;5$20%0&workers:0,3,4
+10,clustering;2$12%0&workers:2,1,7,5
