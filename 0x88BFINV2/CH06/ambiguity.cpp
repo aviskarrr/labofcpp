@@ -13,7 +13,7 @@ class B{
         }
 };
 
-class C:public A,public B{
+class C:public A, public B{
     public:
         void display(){ //basically this overrides the function and we cannot call the above two 
         // functions using the object of c so we can either call within this using scope resulation 
