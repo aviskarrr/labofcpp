@@ -51,7 +51,7 @@ int main() {
         return 1;
     }
 
-    // Calculate position and seek to that record.
+    // Calculate position and seek to that record.....
     file.seekg((recordNumber - 1) * sizeof(p));
     if (file.read(reinterpret_cast<char*>(&p), sizeof(p))) {
         p.showData();
